@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.clr {
+  clear: both;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+/*------------------ section 1 (home)------------------------- */
+.home {
+  background-image: url(images/shutterstock_277750193.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  width: 120px;
+  margin-left: 100px;
+}
+.menu {
+  float: right;
+  margin-right: 100px;
+}
+.menu ul li {
+  float: left;
+  list-style-type: none;
+  margin-right: 25px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  color: #6be529;
+}
+.caption {
+  text-align: center;
+  margin-top: 120px;
+  color: white;
+}
+.caption h1 {
+  font-size: 48px;
+}
+.caption p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.btn1,
+.btn2 {
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.btn1 {
+  background-color: #eecea3;
+}
+/*-------------------------------- section 2(our story)---------------------- */
+.our-story {
+  background-color: white;
+}
+.chef-img {
+  width: 40%;
+  float: left;
+}
+.chef-img img {
+  width: 100%;
+}
+.info {
+  text-align: center;
+  padding-top: 220px;
+}
+.info h3 {
+  color: #ffd700;
+  margin-top: 50px;
+}
+.info h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.info p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.info button {
+  padding: 10px 20px;
+  background-color: white;
+}
+/* section 3 */
+.gl {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+/* section 4 */
+.gallery {
+  margin-bottom: 100px;
+}
+.meal {
+  margin-top: 50px;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.meal img {
+  border-radius: 50%;
+}
+.meal h2 {
+  padding: 10px 0;
+}
+.meal hr {
+  width: 20%;
+  margin: 0 auto 10px;
+  height: 2px;
+  background-color: aquamarine;
+  border: none;
+}
